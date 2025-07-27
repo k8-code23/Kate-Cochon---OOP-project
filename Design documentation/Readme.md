@@ -21,5 +21,5 @@ reason for inclusion for an algorithm or method
 - Class diagram – show the planned class and inheritance hierarchy with attributes and
 methods for all classes
 
-# addded space
+added space
 -make folder code for all py codes

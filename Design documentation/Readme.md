@@ -22,28 +22,21 @@ description, validation and example value
 - Pseudocode – communicate a planned algorithm or method using pseudocode
 
 BEGIN
-
 Create production animal objects: cow, pig, sheep, chicken
 Create domestic animal objects: dog, cat, horse, bird
-
 Add all animal objects to a dictionary called animal_farm
-
 Set choice to empty string
-
 WHILE choice is not "exit"
     Display all animal names in animal_farm
     Ask user which animal to feed (or type 'exit' to quit)
     Get user input and convert to lowercase
-
     IF user input is "exit"
         Print exit message
     ELSE IF user input is in animal_farm
         CALL feed() method for the chosen animal
     ELSE
         Print "That animal is not on the farm."
-
 END
-
 METHOD feed() for AnimalForProduction
     IF animal is not alive
         Print already butchered message
@@ -53,18 +46,15 @@ METHOD feed() for AnimalForProduction
     IF fatPoints >= 10
         Print fat enough message
         CALL butcher()
-
 METHOD butcher()
     Set alive to False
     Print butchered message
-
 METHOD feed() for DomesticAnimal
     IF fatPoints >= 10
         Print too fat message
     ELSE
         Increase fatPoints by 1
         Print fed message
-
 METHOD feed() for farmAnimal
     Increase fatPoints by 1
     Print fed message

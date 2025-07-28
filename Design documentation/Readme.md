@@ -5,6 +5,8 @@ algorithms and data stores as well as any data flowing between them
 - Structure chart – draw a structure chart showing the hierarchical plan of subprograms and
 methods including data passed between them, loops and decisions
 
+![Structure Chart](../images/structure_chart.png)
+
 - Data dictionary – show a table of planned variables each with their data types, format,
 description, validation and example value
 

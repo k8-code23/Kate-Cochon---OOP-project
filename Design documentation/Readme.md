@@ -8,6 +8,17 @@ methods including data passed between them, loops and decisions
 - Data dictionary – show a table of planned variables each with their data types, format,
 description, validation and example value
 
+| Variable Name | Data Type | Description                                      | Example Value      | Validation/Allowed Values         |
+|---------------|-----------|--------------------------------------------------|--------------------|-----------------------------------|
+| animal        | String    | Name/type of the animal                          | "Cow"              | Any string                        |
+| eyes          | Integer   | Number of eyes (default 2)                       | 2                  | >= 0                              |
+| legs          | Integer   | Number of legs                                   | 4                  | >= 0                              |
+| sound         | String    | Sound the animal makes                           | "Moo"              | Any string                        |
+| fatPoints     | Integer   | Tracks how much the animal has been fed          | 1                  | >= 1                              |
+| alive         | Boolean   | If the animal is alive (production animals only) | True               | True or False                     |
+| animal_farm   | Dict      | Dictionary of animal objects by name             | {"cow": cow, ...}  | Keys: animal names; Values: objects|
+| choice        | String    | User input for animal selection or "exit"        | "pig"              | Animal name or "exit"             |
+
 - Pseudocode – communicate a planned algorithm or method using pseudocode
 
 

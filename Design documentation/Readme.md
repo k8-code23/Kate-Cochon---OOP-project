@@ -37,7 +37,6 @@ METHOD greet(other_animal)
 
 - Flowchart – draw a flowchart of a planned algorithm or method
 
-![Flowchart](c:\School Related FSC\SOE - CODING\assessment\final\flowchart for famrAnimal Project.png)
 
 - Desk check – show a table of changing values that you used to desk check an algorithm or
 method

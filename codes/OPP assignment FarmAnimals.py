@@ -30,7 +30,7 @@ class farmAnimal:
         print("")
 
 
-class AnimalForProduction(farmAnimal):
+class AnimalForProduction(farmAnimal): #-> Inherits from farmAnimal
     def __init__(self, animal, legs, sound):
         super().__init__(animal, legs, sound)
         self.alive = True
@@ -54,7 +54,7 @@ class AnimalForProduction(farmAnimal):
 
 
 
-class DomesticAnimal(farmAnimal):
+class DomesticAnimal(farmAnimal): #-> Inherits from farmAnimal
     def feed(self):
         if self.fatPoints >= 10:
             print(f"{self.animal} is too fat! Stop feeding it.")

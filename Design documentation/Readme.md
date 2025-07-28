@@ -10,13 +10,12 @@ description, validation and example value
 
 - Pseudocode – communicate a planned algorithm or method using pseudocode
 
-'''
+
+
 BEGIN
 Create all animal objects(cow,pig,sheep,chicken,dog,cat,horse,bird)
 Add all animal objects to a dictionary called animal_farm
-
 choice=""
-
 WHILE choice is not "exit"
     Display all animal names in animal_farm
     Ask user which animal to feed (or type 'exit' to quit)
@@ -42,7 +41,6 @@ METHOD greet(other_animal)
         Print greeting to other animal
     ELSE
         Print greeting to same species
-'''
 
 - Flowchart – draw a flowchart of a planned algorithm or method
 

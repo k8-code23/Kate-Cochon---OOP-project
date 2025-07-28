@@ -37,7 +37,7 @@ METHOD greet(other_animal)
 
 - Flowchart – draw a flowchart of a planned algorithm or method
 
-![Flowchart](../images/dfd.png)
+![Flowchart](c:\School Related FSC\SOE - CODING\assessment\final\flowchart for famrAnimal Project.png)
 
 - Desk check – show a table of changing values that you used to desk check an algorithm or
 method
@@ -56,30 +56,4 @@ reason for inclusion for an algorithm or method
 - Class diagram – show the planned class and inheritance hierarchy with attributes and
 methods for all classes
 
-+---------------------+
-|     farmAnimal      |
-+---------------------+
-| - animal            |
-| - eyes              |
-| - legs              |
-| - sound             |
-| - fatPoints         |
-+---------------------+
-| + __init__()        |
-| + introduce()       |
-| + greet()           |
-| + animalSound()     |
-| + feed()            |
-+---------------------+
-        ^
-        |
-+--------------------------+        +----------------------+
-| AnimalForProduction      |        | DomesticAnimal        |
-+--------------------------+        +----------------------+
-| - alive                  |        |                      |
-+--------------------------+        +----------------------+
-| + __init__()             |        | + feed()             |
-| + feed()                 |        +----------------------+
-| + butcher()              |
-+--------------------------+
 

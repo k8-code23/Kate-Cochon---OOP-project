@@ -55,6 +55,7 @@ class AnimalForProduction(farmAnimal): #-> Inherits from farmAnimal
 
 
 class DomesticAnimal(farmAnimal): #-> Inherits from farmAnimal
+    self.alive==True
     def feed(self):
         if self.fatPoints >= 10:
             print(f"{self.animal} is too fat! Stop feeding it.")
